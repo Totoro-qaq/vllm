@@ -1,0 +1,770 @@
+[
+  {
+    "id": "sql-00",
+    "correct": true,
+    "text": "SELECT COUNT(*) FROM orders WHERE region = 'east' AND state = 'paid';",
+    "ids_sha256": "d33f611ebdab085936f7264cdeed705f8401b52afa892fac1de8159f8a013833",
+    "reasoning_sha256": "c45693dddc84498dc5ed60a246c55465d1fb866fb561a5c683c44ece6e31eae0",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3325,
+      "total_tokens": 3438,
+      "completion_tokens": 113,
+      "completion_tokens_details": {
+        "reasoning_tokens": 86
+      }
+    }
+  },
+  {
+    "id": "code-00",
+    "correct": true,
+    "text": "57",
+    "ids_sha256": "745826e974c23eae8f2649cabb51e63405b91f09f2eb390b8db505e02db47250",
+    "reasoning_sha256": "a51a85e03c264f2db2880329ff2ec76e6a29e0566b1fd854b2ed44c93ab45e14",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3377,
+      "total_tokens": 3832,
+      "completion_tokens": 455,
+      "completion_tokens_details": {
+        "reasoning_tokens": 447
+      }
+    }
+  },
+  {
+    "id": "document-00",
+    "correct": true,
+    "text": "{\"team\":\"infra\",\"quota\":23}",
+    "ids_sha256": "6b9d57ff28b571a952aa1af0c5836f54ced29230f5652fb57ff21935912c6b54",
+    "reasoning_sha256": "d83167a7c29440062c590c399bebb2fdbf5a9ee02c760a41bcca059b51e9a908",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3709,
+      "total_tokens": 3849,
+      "completion_tokens": 140,
+      "completion_tokens_details": {
+        "reasoning_tokens": 118
+      }
+    }
+  },
+  {
+    "id": "sql-01",
+    "correct": true,
+    "text": "SELECT COUNT(*) FROM orders WHERE region = 'west' AND state = 'paid';",
+    "ids_sha256": "dfb7839e079593d2a95977c39bde377984d76956295a8524671fb41e85d83172",
+    "reasoning_sha256": "ae1fe54b6bd2b91ce9f91f5f50b33042a031720adc5cf2dfe868d552302ba7db",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3325,
+      "total_tokens": 3625,
+      "completion_tokens": 300,
+      "completion_tokens_details": {
+        "reasoning_tokens": 273
+      }
+    }
+  },
+  {
+    "id": "code-01",
+    "correct": true,
+    "text": "53",
+    "ids_sha256": "1a1a565bc2aab2c1a65104bf82b7dcae13c14ec8f90ea425e2128990c55790cd",
+    "reasoning_sha256": "5f84f04302026a31527dab5ccaf9364ac45922f19313a3fd2b1b4d3ea640d77f",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3377,
+      "total_tokens": 3813,
+      "completion_tokens": 436,
+      "completion_tokens_details": {
+        "reasoning_tokens": 428
+      }
+    }
+  },
+  {
+    "id": "document-01",
+    "correct": true,
+    "text": "{\"team\":\"infra\",\"quota\":43}",
+    "ids_sha256": "51a9fdde6412a95fe6922c265a382afe5b2697ddc671ec70d1a035ca7153675c",
+    "reasoning_sha256": "e367cbc43936aa53714ba290faae708ad67daa41ce2688a7bdecc4f7c7f6a2ac",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3710,
+      "total_tokens": 3851,
+      "completion_tokens": 141,
+      "completion_tokens_details": {
+        "reasoning_tokens": 119
+      }
+    }
+  },
+  {
+    "id": "sql-02",
+    "correct": true,
+    "text": "SELECT COUNT(*) FROM orders WHERE region = 'north' AND state = 'paid';",
+    "ids_sha256": "160adb67deffe2b399cc1d0670c40b18cdefcfbddcdb283280b5dae7ac6521f4",
+    "reasoning_sha256": "e376d6b4a33320ef3474358e8ec71b55af59712bea8a7094d220aad6b1d6228e",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3325,
+      "total_tokens": 3484,
+      "completion_tokens": 159,
+      "completion_tokens_details": {
+        "reasoning_tokens": 132
+      }
+    }
+  },
+  {
+    "id": "code-02",
+    "correct": true,
+    "text": "55",
+    "ids_sha256": "9c973ebebf5182b9c8ceb082d52267a4cc537d78518cdc8d1c6836f6cd30ebdb",
+    "reasoning_sha256": "d36ce358202ef5fa0fa2d31167e7c0bcf6699095fc307b0c5905ab92e5834a3d",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3377,
+      "total_tokens": 3817,
+      "completion_tokens": 440,
+      "completion_tokens_details": {
+        "reasoning_tokens": 432
+      }
+    }
+  },
+  {
+    "id": "document-02",
+    "correct": true,
+    "text": "{\"team\":\"infra\",\"quota\":57}",
+    "ids_sha256": "966b4be90ea881ab1b57c7191a80548d929b93f4871c4894fe795c19efd7ecd9",
+    "reasoning_sha256": "e0d44bbcf336b5e0f94ca54975400f00d3e1384a44fdf9a51c06ef94cebffb75",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3704,
+      "total_tokens": 3843,
+      "completion_tokens": 139,
+      "completion_tokens_details": {
+        "reasoning_tokens": 117
+      }
+    }
+  },
+  {
+    "id": "sql-03",
+    "correct": true,
+    "text": "SELECT COUNT(*) FROM orders WHERE region = 'south' AND state = 'paid';",
+    "ids_sha256": "eb77957765fc99b701530ca060c23875471c1f6b6710da231ae233386ea271c3",
+    "reasoning_sha256": "6317837ff12af87caca378dd3ec9bab97bd986a624939f6a283f027016eb7cd5",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3325,
+      "total_tokens": 3516,
+      "completion_tokens": 191,
+      "completion_tokens_details": {
+        "reasoning_tokens": 164
+      }
+    }
+  },
+  {
+    "id": "code-03",
+    "correct": true,
+    "text": "49",
+    "ids_sha256": "d2df6fac1fb2b261d2c1f03beb85c117fb4ed66753373969e209597d08d085b7",
+    "reasoning_sha256": "02849f06c06bf8496741d352696270501eebf7ecd82f34aae134f54b4f344505",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3377,
+      "total_tokens": 3866,
+      "completion_tokens": 489,
+      "completion_tokens_details": {
+        "reasoning_tokens": 481
+      }
+    }
+  },
+  {
+    "id": "document-03",
+    "correct": true,
+    "text": "{\"team\":\"runtime\",\"quota\":67}",
+    "ids_sha256": "5c63fb466324a0b73763f6f00d269c147bf12b09df9bd97c14ede0a7de245c7f",
+    "reasoning_sha256": "0fe4a9a5403e52a155c65686a929c619e78440f03546647ceadd14edd0265f7f",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3708,
+      "total_tokens": 3849,
+      "completion_tokens": 141,
+      "completion_tokens_details": {
+        "reasoning_tokens": 119
+      }
+    }
+  },
+  {
+    "id": "sql-04",
+    "correct": true,
+    "text": "SELECT SUM(cents) FROM orders WHERE region = 'east' AND state = 'sent';",
+    "ids_sha256": "ac38a048c2af6b81a9ac37e3440f8f3a3a245f917953c566600a2ac0d5503f7e",
+    "reasoning_sha256": "02ab92eb8e32ba9a9780212df5437404171aea7582fc3e183447e280ef28c4a5",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3332,
+      "total_tokens": 3555,
+      "completion_tokens": 223,
+      "completion_tokens_details": {
+        "reasoning_tokens": 195
+      }
+    }
+  },
+  {
+    "id": "code-04",
+    "correct": true,
+    "text": "66",
+    "ids_sha256": "6f82beef548064a53bdc8fdeee32aedff9fea918f0a08b53c4f64f93b2e8854a",
+    "reasoning_sha256": "456ea94b58e0eb2c9d26127d83d1f8a09adc11f525130f5e8cd5d86ec89d1674",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3377,
+      "total_tokens": 3847,
+      "completion_tokens": 470,
+      "completion_tokens_details": {
+        "reasoning_tokens": 462
+      }
+    }
+  },
+  {
+    "id": "document-04",
+    "correct": true,
+    "text": "{\"team\":\"runtime\",\"quota\":45}",
+    "ids_sha256": "dedff46dee85fd6011a7926701d53f42e2c809e73a6a5b358ee69eb6b16574cc",
+    "reasoning_sha256": "326fdd38247404cecf1d513a992a326af32129c95f04fd63c73c0f87615a56c5",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3708,
+      "total_tokens": 3849,
+      "completion_tokens": 141,
+      "completion_tokens_details": {
+        "reasoning_tokens": 119
+      }
+    }
+  },
+  {
+    "id": "sql-05",
+    "correct": true,
+    "text": "SELECT SUM(cents) FROM orders WHERE region = 'west' AND state = 'sent';",
+    "ids_sha256": "29b0b3897bc57e0c44d29c9820decc8aff7a4cab2a036a6ae36301345ddd8935",
+    "reasoning_sha256": "a7a2734901bfef871dd5aecc1fb8dac74bd85d44668ae545f40c2ac2d309fe6e",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3332,
+      "total_tokens": 3616,
+      "completion_tokens": 284,
+      "completion_tokens_details": {
+        "reasoning_tokens": 256
+      }
+    }
+  },
+  {
+    "id": "code-05",
+    "correct": true,
+    "text": "47",
+    "ids_sha256": "823dcefdfb470ae1df46faa8a7f2b6589deafc927ff8d818bb2fc1e620eff232",
+    "reasoning_sha256": "7bf165df67b7b54c9902b6d563422923678ab8d2756efef9988d4fe402a659af",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3377,
+      "total_tokens": 3805,
+      "completion_tokens": 428,
+      "completion_tokens_details": {
+        "reasoning_tokens": 420
+      }
+    }
+  },
+  {
+    "id": "document-05",
+    "correct": true,
+    "text": "{\"team\":\"runtime\",\"quota\":124}",
+    "ids_sha256": "e6af674254a97b5191bb9e78cc6aa14f86ddcf13c01bfabd6a2cc62f427e3869",
+    "reasoning_sha256": "424d7f128637c526ba8bb71505eef7e2a3be8c235b44ea577835770e2a653d8d",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3710,
+      "total_tokens": 3851,
+      "completion_tokens": 141,
+      "completion_tokens_details": {
+        "reasoning_tokens": 119
+      }
+    }
+  },
+  {
+    "id": "sql-06",
+    "correct": true,
+    "text": "SELECT SUM(cents) AS total_cents FROM orders WHERE region = 'north' AND state = 'sent';",
+    "ids_sha256": "adf9f562d1e40a73bf720393fce972dc80b58a3a5404fd1afca201a680503680",
+    "reasoning_sha256": "57813dc79840129324e09bc3fd9aab82410a182923491e5af3fa8b54ce59bc54",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3332,
+      "total_tokens": 3577,
+      "completion_tokens": 245,
+      "completion_tokens_details": {
+        "reasoning_tokens": 212
+      }
+    }
+  },
+  {
+    "id": "code-06",
+    "correct": true,
+    "text": "60",
+    "ids_sha256": "68168890a917eb2a8258eb8e66806c56c14517438c79c8c3040861aa0231f9eb",
+    "reasoning_sha256": "0cbaf87156acb77e4f7b53873c6d33b6fdd62592ba7c79bd5dfa39261ed16700",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3377,
+      "total_tokens": 3874,
+      "completion_tokens": 497,
+      "completion_tokens_details": {
+        "reasoning_tokens": 489
+      }
+    }
+  },
+  {
+    "id": "document-06",
+    "correct": true,
+    "text": "{\"team\":\"billing\",\"quota\":92}",
+    "ids_sha256": "eb6be810544402d66b9d1391040e7e4cff90e03c24c43db6021c38e82cc4914a",
+    "reasoning_sha256": "c324bd0cbe2081cbaa71148d5355ac54f22518c3463b07eadc701c23d64ca9e2",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3710,
+      "total_tokens": 3855,
+      "completion_tokens": 145,
+      "completion_tokens_details": {
+        "reasoning_tokens": 122
+      }
+    }
+  },
+  {
+    "id": "sql-07",
+    "correct": true,
+    "text": "SELECT SUM(cents) FROM orders WHERE region = 'south' AND state = 'sent';",
+    "ids_sha256": "edb95daed8a8dc148f5fec085e84229c6c1c284f3fdf1ee20043ef61f2262462",
+    "reasoning_sha256": "b41a6836d5f7a6f850d3017dbe2a0869bb5d94a9dc8cd32cb44b7f8fe5fc3d1d",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3332,
+      "total_tokens": 3609,
+      "completion_tokens": 277,
+      "completion_tokens_details": {
+        "reasoning_tokens": 249
+      }
+    }
+  },
+  {
+    "id": "code-07",
+    "correct": true,
+    "text": "61",
+    "ids_sha256": "0364b3bc42ef75cb316fb391ae44c15aec21a39c58f8bab49ad79159fc0c15ec",
+    "reasoning_sha256": "45e1df8c3d59e34908d267ac3045182642385752f9813fc1e744d0fe0e74b1eb",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3377,
+      "total_tokens": 3761,
+      "completion_tokens": 384,
+      "completion_tokens_details": {
+        "reasoning_tokens": 376
+      }
+    }
+  },
+  {
+    "id": "document-07",
+    "correct": true,
+    "text": "{\"team\":\"infra\",\"quota\":42}",
+    "ids_sha256": "9ba2ce86c16637a24a0a2366d8cfd9a2c49c0d9d02950bd05712df083ce4bffc",
+    "reasoning_sha256": "59b8cf14adcd8fb9c92fe01ee800a4343b3f6b6345acec98dd8dce2bb84d437f",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3704,
+      "total_tokens": 3845,
+      "completion_tokens": 141,
+      "completion_tokens_details": {
+        "reasoning_tokens": 119
+      }
+    }
+  },
+  {
+    "id": "sql-08",
+    "correct": true,
+    "text": "SELECT MAX(cents) FROM orders WHERE region = 'east' AND state = 'paid';",
+    "ids_sha256": "cbfbd12ce472433f9865487d45192aa294affd284f1b40a07a8acb12a66482e8",
+    "reasoning_sha256": "c853fd31f145618da1c895c76c7ee8c20b6808c433db00d293f49cabb4f556e4",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3331,
+      "total_tokens": 3606,
+      "completion_tokens": 275,
+      "completion_tokens_details": {
+        "reasoning_tokens": 247
+      }
+    }
+  },
+  {
+    "id": "code-08",
+    "correct": true,
+    "text": "53",
+    "ids_sha256": "884c95105ffc26a85acb19e6079f47dad5c3d44e5fb17b85023b28502b0a3f93",
+    "reasoning_sha256": "d7e6dd1af6a506809d70d355f7252dd397de90620550ae7b5856fcdd2bf15649",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3377,
+      "total_tokens": 3784,
+      "completion_tokens": 407,
+      "completion_tokens_details": {
+        "reasoning_tokens": 399
+      }
+    }
+  },
+  {
+    "id": "document-08",
+    "correct": true,
+    "text": "{\"team\":\"infra\",\"quota\":60}",
+    "ids_sha256": "c7b8731b181b27c14f309784ddc9bf26d6fd513fa537f7782f6f3399ab998d86",
+    "reasoning_sha256": "468134cb128b6ec7ec98181e402638ca49493a6bbfea0877d02cb6c974cd47b0",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3708,
+      "total_tokens": 3847,
+      "completion_tokens": 139,
+      "completion_tokens_details": {
+        "reasoning_tokens": 117
+      }
+    }
+  },
+  {
+    "id": "sql-09",
+    "correct": true,
+    "text": "SELECT MAX(cents) FROM orders WHERE region = 'west' AND state = 'paid';",
+    "ids_sha256": "a3eed2b9132e3802ee83922eba1f2cc48acafb53a45c12be2cc4cab5de611290",
+    "reasoning_sha256": "14a9b824a8d0bfb0d764456398c87ad7fcb5f0078f6d9035acb9154d6fdefcc7",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3331,
+      "total_tokens": 3584,
+      "completion_tokens": 253,
+      "completion_tokens_details": {
+        "reasoning_tokens": 225
+      }
+    }
+  },
+  {
+    "id": "code-09",
+    "correct": true,
+    "text": "73",
+    "ids_sha256": "5d6afe8e979c1a287da52ac20136872823cd85bc85d081893f9e5b0260294e46",
+    "reasoning_sha256": "54ca99b7df0b9d7eb667dae172b70a177a6693f00015d5c212c52294ac055314",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3377,
+      "total_tokens": 3945,
+      "completion_tokens": 568,
+      "completion_tokens_details": {
+        "reasoning_tokens": 560
+      }
+    }
+  },
+  {
+    "id": "document-09",
+    "correct": true,
+    "text": "{\"team\":\"billing\",\"quota\":88}",
+    "ids_sha256": "f1c5c8444e60d14afe6aab5e5cd356ddd260323896316dbd8d9f2ea9360cdb05",
+    "reasoning_sha256": "bed531cc3e5831665a5710964249cd9e7d3ec45ab96b938752482cbe8478c1fb",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3708,
+      "total_tokens": 3852,
+      "completion_tokens": 144,
+      "completion_tokens_details": {
+        "reasoning_tokens": 121
+      }
+    }
+  },
+  {
+    "id": "sql-10",
+    "correct": true,
+    "text": "SELECT MAX(cents) FROM orders WHERE region = 'north' AND state = 'paid';",
+    "ids_sha256": "c0d00546b1dbdedc9b1b580fdcf553b96d24432d945ca4eb68a6c1a0c69083ae",
+    "reasoning_sha256": "8575d77f4748b14e491579f15df1b98238038583cb925e136d9ba11d4452d7ee",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3331,
+      "total_tokens": 3488,
+      "completion_tokens": 157,
+      "completion_tokens_details": {
+        "reasoning_tokens": 129
+      }
+    }
+  },
+  {
+    "id": "code-10",
+    "correct": true,
+    "text": "51",
+    "ids_sha256": "4c1005da194e70fab5ca9eb2d4a024419732f9d08eee338a92d372af652ad872",
+    "reasoning_sha256": "f6976e80490f8ad601eb1b5317f326b8f43495a6169b40e22406af3acd5429e3",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3377,
+      "total_tokens": 3925,
+      "completion_tokens": 548,
+      "completion_tokens_details": {
+        "reasoning_tokens": 540
+      }
+    }
+  },
+  {
+    "id": "document-10",
+    "correct": true,
+    "text": "{\"team\":\"runtime\",\"quota\":61}",
+    "ids_sha256": "ffde64478b0832384999b362579527787756266ec0ee23e3c99db262e653b511",
+    "reasoning_sha256": "46c985b121820fcb3c0ffae1f5e31e6c17acde9dc26344e7dec0814ae34668ef",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3706,
+      "total_tokens": 3846,
+      "completion_tokens": 140,
+      "completion_tokens_details": {
+        "reasoning_tokens": 118
+      }
+    }
+  },
+  {
+    "id": "sql-11",
+    "correct": true,
+    "text": "SELECT MAX(cents) FROM orders WHERE region = 'south' AND state = 'paid';",
+    "ids_sha256": "43367ddde496ee76b9b21a7c802b9cb86db7c501b08069e994c0671c8092b86e",
+    "reasoning_sha256": "7192b9cb4c5ff8794f197605b5c964f6f39e3f0e4477d23ed669526cac0f5cad",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3331,
+      "total_tokens": 3497,
+      "completion_tokens": 166,
+      "completion_tokens_details": {
+        "reasoning_tokens": 138
+      }
+    }
+  },
+  {
+    "id": "code-11",
+    "correct": true,
+    "text": "68",
+    "ids_sha256": "9d78884804d7fe11f4ebb49824446b48b137d6e3cda045c44e1d64aed0f4b888",
+    "reasoning_sha256": "8f30b271905daf23b7e2ee1722d96ab9648e234ce994c82b22ce6f87e08f6176",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3377,
+      "total_tokens": 3897,
+      "completion_tokens": 520,
+      "completion_tokens_details": {
+        "reasoning_tokens": 512
+      }
+    }
+  },
+  {
+    "id": "document-11",
+    "correct": true,
+    "text": "{\"team\":\"billing\",\"quota\":63}",
+    "ids_sha256": "8ac3b84cf932cbda7224e5ae6b37d2ab22303700496287ce765a41c0b9a9ed4c",
+    "reasoning_sha256": "25cd21e66397de1f55aa8273c23de372c41a301e45d323aea84d7a21f75d7514",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3708,
+      "total_tokens": 3850,
+      "completion_tokens": 142,
+      "completion_tokens_details": {
+        "reasoning_tokens": 119
+      }
+    }
+  },
+  {
+    "id": "sql-12",
+    "correct": true,
+    "text": "SELECT MIN(order_id) FROM orders WHERE region = 'east' AND state = 'cancelled';",
+    "ids_sha256": "484a264b94a6ca4461ae4ba34068819be8ebd83bba833b404d83ee4572a863bf",
+    "reasoning_sha256": "aa61178eae18a448248402c0e4aa24497e52b312ffe16989b97cd72dbd8e29ef",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3330,
+      "total_tokens": 3544,
+      "completion_tokens": 214,
+      "completion_tokens_details": {
+        "reasoning_tokens": 184
+      }
+    }
+  },
+  {
+    "id": "code-12",
+    "correct": true,
+    "text": "65",
+    "ids_sha256": "b8beb832806a6b62ddb61f90c195b49bd1f591cdb35d7af3304a05cda6089b7e",
+    "reasoning_sha256": "0705dbaf01feb6bc9c9533c07b74db7eb40b8e44ac776e482ca58ae42114a6f0",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3377,
+      "total_tokens": 3835,
+      "completion_tokens": 458,
+      "completion_tokens_details": {
+        "reasoning_tokens": 450
+      }
+    }
+  },
+  {
+    "id": "document-12",
+    "correct": true,
+    "text": "{\"team\":\"billing\",\"quota\":48}",
+    "ids_sha256": "661461f85ee4598a2ee8e412c64171c9273c2db95305ac65e766d2a9c51005c3",
+    "reasoning_sha256": "8d9d1cc7140b9dc57b5589b939f1a82828ccdbbcb1f1a33b1017352b866a0ce2",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3704,
+      "total_tokens": 3847,
+      "completion_tokens": 143,
+      "completion_tokens_details": {
+        "reasoning_tokens": 120
+      }
+    }
+  },
+  {
+    "id": "sql-13",
+    "correct": true,
+    "text": "SELECT MIN(order_id) FROM orders WHERE region = 'west' AND state = 'cancelled';",
+    "ids_sha256": "6016ca53f0df522f2412fb2c19a23645deaf0da4177aeb2661add202de46f062",
+    "reasoning_sha256": "d353bec6a5af4f950eb6a6190402c22173b125fabec14ad72fa0c452400c34bc",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3330,
+      "total_tokens": 3682,
+      "completion_tokens": 352,
+      "completion_tokens_details": {
+        "reasoning_tokens": 322
+      }
+    }
+  },
+  {
+    "id": "code-13",
+    "correct": true,
+    "text": "60",
+    "ids_sha256": "5fde4fb559b681614e7e5b67bb99756cd992d3b573bc20536098e6479b028ecd",
+    "reasoning_sha256": "4e5d9024de2a0833d036eab897f7b76fb709716efc2b0e410a80bb5d2f2e9446",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3377,
+      "total_tokens": 3893,
+      "completion_tokens": 516,
+      "completion_tokens_details": {
+        "reasoning_tokens": 508
+      }
+    }
+  },
+  {
+    "id": "document-13",
+    "correct": true,
+    "text": "{\"team\":\"billing\",\"quota\":93}",
+    "ids_sha256": "c850eb4f31edde74b77da61221a82962a0f6dbad7e7652df9016490bdc475d80",
+    "reasoning_sha256": "e241ac4fb9ea403a03a952fb111ff28ab4d51e4033fcecdf1281b44002d649f9",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3709,
+      "total_tokens": 3854,
+      "completion_tokens": 145,
+      "completion_tokens_details": {
+        "reasoning_tokens": 122
+      }
+    }
+  },
+  {
+    "id": "sql-14",
+    "correct": true,
+    "text": "SELECT MIN(order_id) FROM orders WHERE region = 'north' AND state = 'cancelled';",
+    "ids_sha256": "299dac0173e7ab12750428c28cf25faea8f65a86b2f6e25c4f21c1137414413d",
+    "reasoning_sha256": "18f81d6c6cf4fa354b3807ce7cd38797f9430e12ddbadd59f518e60c5e257724",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3330,
+      "total_tokens": 3543,
+      "completion_tokens": 213,
+      "completion_tokens_details": {
+        "reasoning_tokens": 183
+      }
+    }
+  },
+  {
+    "id": "code-14",
+    "correct": true,
+    "text": "63",
+    "ids_sha256": "a7cb44225175c6a57ad91159d0337b1390fa2039b8e7b065e295cd04bcaf186f",
+    "reasoning_sha256": "c05e6d57eaf471cdeacd1c6620e85a19d943ea615935ceaa1061becb0aa23e82",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3377,
+      "total_tokens": 3799,
+      "completion_tokens": 422,
+      "completion_tokens_details": {
+        "reasoning_tokens": 414
+      }
+    }
+  },
+  {
+    "id": "document-14",
+    "correct": true,
+    "text": "{\"team\":\"billing\",\"quota\":38}",
+    "ids_sha256": "5e357a4c00ad94dd767a31760cf47a55a3a597b1ae5acec9bc2a538fc1fd9d8a",
+    "reasoning_sha256": "93259c4cc0d6b3ebba5be5fff1844a200675c89f1b07b4e619fce3eca01ee5e7",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3710,
+      "total_tokens": 3842,
+      "completion_tokens": 132,
+      "completion_tokens_details": {
+        "reasoning_tokens": 109
+      }
+    }
+  },
+  {
+    "id": "sql-15",
+    "correct": true,
+    "text": "SELECT MIN(order_id) FROM orders WHERE region = 'south' AND state = 'cancelled';",
+    "ids_sha256": "5397099c83357779defbdc05823298d568863e8d5a41fe78d3fe336764cb8f70",
+    "reasoning_sha256": "71035270865de335bd1c8ebed2638a0e48168817b104aaa31f3bd3eadaa31a91",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3330,
+      "total_tokens": 3602,
+      "completion_tokens": 272,
+      "completion_tokens_details": {
+        "reasoning_tokens": 242
+      }
+    }
+  },
+  {
+    "id": "code-15",
+    "correct": true,
+    "text": "57",
+    "ids_sha256": "58a858fe4675429515b2d3294e8096af341cd77798bd97b9a8fc5066e3ba9fdc",
+    "reasoning_sha256": "64f49276f4d5a254c00b3a15b41f2cdddae7077f163de08600eb22b676cb2699",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3377,
+      "total_tokens": 3756,
+      "completion_tokens": 379,
+      "completion_tokens_details": {
+        "reasoning_tokens": 371
+      }
+    }
+  },
+  {
+    "id": "document-15",
+    "correct": true,
+    "text": "{\"team\":\"infra\",\"quota\":76}",
+    "ids_sha256": "4e7f4b3b7d8aff15980134167c130c2bcd3510a6fa45904fb13e5f562887fd61",
+    "reasoning_sha256": "1cb856d76956631c6e2fd45bb189d49b5314862921d4dcd5b66774f3a02b3f73",
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 3708,
+      "total_tokens": 3849,
+      "completion_tokens": 141,
+      "completion_tokens_details": {
+        "reasoning_tokens": 119
+      }
+    }
+  }
+]
